@@ -1,0 +1,47 @@
+endpoints:
+  jmx:
+    enabled: false
+jcf:
+  core:
+    databind-json-type: fastjson
+  datasource:
+    A:
+      driverClassName: com.mysql.jdbc.Driver
+      password: root
+      type: com.alibaba.druid.pool.DruidDataSource
+      url: jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf-8
+      username: root
+  route:
+    defaultLabel: A
+logging:
+  level:
+    com:
+      sitech:
+        demo:
+          mapper: trace
+    org:
+      apache:
+        coyote:
+          http11: debug
+    root: info
+mybatis:
+  configuration:
+    default-fetch-size: 100
+    multiple-result-sets-enabled: true
+  mapperLocations: classpath:mybatismapper/**/*.xml
+security:
+  basic:
+    enabled: false
+server:
+  port: 8899
+spring:
+  application:
+    name: custdemo
+  boot:
+    admin:
+      url: http://localhost:9999
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 5762
+    username: guest
