@@ -1,6 +1,3 @@
-endpoints:
-  jmx:
-    enabled: false
 jcf:
   core:
     databind-json-type: fastjson
