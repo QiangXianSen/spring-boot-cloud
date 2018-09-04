@@ -1,5 +1,5 @@
 info:
-  profile: dev3
+  profile: dev4
 spring:
   rabbitmq:
    host: localhost
