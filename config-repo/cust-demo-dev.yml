@@ -36,9 +36,10 @@ spring:
     name: custdemo
   boot:
     admin:
-      url: http://localhost:9999
-  rabbitmq:
-    host: localhost
-    password: guest
-    port: 5762
-    username: guest
+      url: http://172.18.231.26:8080
+test.refresh: test1
+#  rabbitmq:
+#    host: localhost
+#    password: guest
+#    port: 5762
+#    username: guest
