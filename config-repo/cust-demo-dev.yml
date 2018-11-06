@@ -42,5 +42,5 @@ spring:
   boot:
     admin:
       url: http://172.18.231.26:8080
-test.refresh: test3
+test.refresh: test4
 
