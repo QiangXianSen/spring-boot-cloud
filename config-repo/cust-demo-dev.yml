@@ -34,11 +34,11 @@ server:
 spring:
   application:
     name: custdemo
-  rabbitmq:
-    username: guest
-    password: guest
-    port: 5762
-    host: localhost
+#  rabbitmq:
+#    username: guest
+#    password: guest
+#    port: 5762
+#    host: localhost
   boot:
     admin:
       url: http://172.18.231.26:8080
